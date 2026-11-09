@@ -1,0 +1,42 @@
+/* ========================================
+  Bakery Website - Global Style
+  パン屋Webサイト共通スタイル
+======================================== */
+
+/* メインカラー：小麦ブラウン
+   使用場所：メインボタン、ロゴのアクセント、重要なリンク */
+.color-primary {
+    color: #b87945;
+    background-color: #b87945;
+}
+
+/* ホバー時のカラー
+   使用場所：ボタンやリンクにマウスを合わせたとき */
+.color-primary-hover:hover {
+    background-color: #946038;
+}
+
+/* 背景色：ミルククリーム
+   使用場所：Webサイト全体の背景 */
+.color-background {
+    background-color: #fff8ed;
+}
+
+/* 文字色：コーヒーブラウン
+   使用場所：本文、見出し、ナビゲーション */
+.color-text {
+    color: #70452d;
+}
+
+/* アクセントカラー：焼きたてゴールド
+   使用場所：アイコン、装飾、商品ラベル */
+.color-accent {
+    color: #dda66b;
+}
+
+/* 白色
+   使用場所：カード背景、ボタンの文字など */
+.color-white {
+    color: #ffffff;
+    background-color: #ffffff;
+}
