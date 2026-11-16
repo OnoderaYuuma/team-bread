@@ -40,3 +40,44 @@
     color: #ffffff;
     background-color: #ffffff;
 }
+
+/******************* 
+    共通ヘッダー 
+*******************/
+header {
+    background-color: #b87945;
+    color: #ffffff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#top-logo {
+    font-size: 40px;
+    font-weight: bold;
+}
+/* nav */
+#header-nav {
+    margin: auto 0;
+}
+#header-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+#header-nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+#header-nav a:hover {
+    color: #dda66b;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+/* 共通フッター */
+footer {
+    background-color: #70452d;
+    color: #fff8ed;
+    padding: 10px;
+    text-align: center;
+}
