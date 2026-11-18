@@ -5,14 +5,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@3.0.2/destyle.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Shippori+Mincho&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="/style.css" />
         <link rel="stylesheet" href="/css/top.css" />
     </head>
     <body>
         <header>
-            <a href="/index.html" id="top-logo">麦日和</a>
+            <a href="/index.html" id="top-logo" class="shippori-mincho-regular">麦日和</a>
             <nav id="header-nav">
-                <ul id="">
+                <ul id="" class="m-plus-rounded-1c-regular">
                     <li><a href="/today-bread.html">今日のパン</a></li>
                     <li><a href="/ranking.html">人気ランキング</a></li>
                     <li><a href="/history.html">お店の歩み</a></li>
@@ -22,11 +25,17 @@
         </header>
         <main>
             <!-- top画像 -->
-            <section class="hero">
-                <div>
-                    <img src="images/top/hero.png" alt="top" />
+            <section id="hero">
+                <div class="container">
+                    <div>
+                        <h2 class="shippori-mincho-regular">焼きたての香りに<br />「ただいま」と言える街。</h2>
+                        <p class="m-plus-rounded-1c-regular">小さな窯から広がる麦の香り。麦日和のパンは、家族の一日の始まりにそっと寄り添う、素朴でやさしい味です。</p>
+                    </div>
                 </div>
             </section>
+            <section id="ranking"></section>
+            <section id="today-bread"></section>
+            <section id="access"></section>
         </main>
         <footer>
             <p>&copy; 2026 麦日和</p>
